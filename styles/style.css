@@ -67,7 +67,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-
+    
 }
 
 .flower-1 {
@@ -98,4 +98,51 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-top: 30px;
+}
+
+/* Outlet Section Style Part */
+.outlet-container {
+    /* background-color: #E55473;  */
+    /* border-radius: 10px;
+    padding: 20px 40px;
+    margin-bottom: 128px; */
+}
+.outlet-container  { 
+    color: white;
+}
+.outlet-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.outlet-img-container img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+/* service section style  */
+.services-section{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    gap: 80px;
+    padding: 87px 175px;
+    margin:  128px 240px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.services-p{
+    display: flex;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    /* gap: 100px; */
+    justify-content: space-between;
+    /* margin: 24px 120px 50px 100px; */
+    margin-top: 24px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
 }
