@@ -164,11 +164,50 @@ body {
 span {
     color: #E55473;
 }
-/* Instagram Section Style  */
+/* Instagram Section   */
 .instagram-container {
     text-align: center;
     margin-bottom: 128px;
 }
 .instagram-flower-container img {
     margin-left: 20px;
+}
+/* Latest Section Style Part */
+.latest-container {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 121px 287px;
+    margin-bottom: 128px;
+}
+.latest-subContainer input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 10px;
+}
+.latest-subContainer {
+    text-align: center;
+}
+/* Footer Section Style  */
+.footer-container {
+    text-align: center;
+    background: #111010;
+    padding: 128px 650px;
+}
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
