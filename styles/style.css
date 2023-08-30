@@ -146,3 +146,29 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+
+/* Hot Deal Section Style */
+.hot-deal-container {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    align-items: center;
+    padding: 100px 400px;
+    margin-bottom: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hotDeal-subContainer,.hotDeal-subContainer  {
+    text-align: center;
+}
+span {
+    color: #E55473;
+}
+/* Instagram Section Style  */
+.instagram-container {
+    text-align: center;
+    margin-bottom: 128px;
+}
+.instagram-flower-container img {
+    margin-left: 20px;
+}
